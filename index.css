@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgb(144, 193, 144);
+  border-radius: 5px;
+  background-color: #f6f6f1;
+  
+}
+
+#addFineSection input,
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ecc9c9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2aa230;
+}
+#addedBooks {
+  margin-top: 20px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f6f6f1;
+ 
+}
+#addedBooks li{
+    color:rgb(29, 135, 29);
+}
+#addFineSection input {
+  margin-top: 20px;
+}
+
+#addFineSection button {
+  background-color: red;
+}

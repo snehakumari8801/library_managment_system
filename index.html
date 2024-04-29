@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title >Library Management System</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: rgb(46, 155, 46);">Library Management System</h1>
+      <label for="enrollment">Enrollment No:</label>
+      <input type="text" id="enrollment" />
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <label for="book">Book Title:</label>
+      <input type="text" id="book" />
+      <label for="issueDate">Issue Date:</label>
+      <input type="date" id="issueDate" />
+      <button onclick="addBook()">Add Book</button>
+      <hr/>
+      <label for="searchEnrollment">Search Enrollment No:</label>
+      <input type="text" id="searchEnrollment" />
+      <button onclick="searchBook()">Search</button>
+      <div id="result"></div>
+
+      <div id="addFineSection"></div>
+
+      <div id="addedBooks">
+        <h3>Added Books Details</h3>
+        <ul id="booksList"></ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
